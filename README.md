@@ -52,13 +52,14 @@ p{margin:0;}
 
 /* Tablas */
 .table-wrap{overflow-x:auto; background:var(--surface); border:1px solid var(--line); border-radius:10px;}
-table{border-collapse:collapse; width:100%; font-size:14px; color:var(--ink);}
-th,td{text-align:left; padding:12px 16px; border-bottom:1px solid var(--line); color: var(--ink);}
-th{background:var(--bg); font-weight:600; color:var(--muted); text-transform:uppercase; font-size:12px; letter-spacing:0.05em;}
+table{border-collapse:collapse; width:100%; font-size:14px;}
+th,td{text-align:left; padding:12px 16px; border-bottom:1px solid var(--line); color:#0f172a !important;}
+th{background:var(--bg); font-weight:600; text-transform:uppercase; font-size:12px; letter-spacing:0.05em;}
 tr:last-child td{border-bottom:0;}
 
 /* Cajas de Código */
 pre{background:#1e293b !important; color:#f8fafc !important; padding:14px; border-radius:8px; overflow-x:auto; font-family:var(--f-mono); font-size:13px; line-height:1.5;}
+
 /* Ajustes móviles */
 @media (max-width: 600px) {
   .stage-header{flex-direction:column; align-items:flex-start; gap:10px;}
