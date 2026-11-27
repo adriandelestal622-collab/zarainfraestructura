@@ -52,7 +52,7 @@ p{margin:0;}
 
 /* Tablas */
 .table-wrap{overflow-x:auto; background:var(--surface); border:1px solid var(--line); border-radius:10px;}
-table{border-collapse:collapse; width:100%; font-size:14px;}
+table{border-collapse:collapse; width:100%; font-size:14px; color:var(--ink);}
 th,td{text-align:left; padding:12px 16px; border-bottom:1px solid var(--line);}
 th{background:var(--bg); font-weight:600; color:var(--muted); text-transform:uppercase; font-size:12px; letter-spacing:0.05em;}
 tr:last-child td{border-bottom:0;}
